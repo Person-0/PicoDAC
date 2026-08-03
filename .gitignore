@@ -1,0 +1,13 @@
+.env
+.*
+!.gitignore
+*.ini
+*node_modules
+*.lck
+*~$*
+
+hardware/bom.xlsx
+hardware/PicoDAC/PicoDAC-backups
+hardware/PicoDAC/fp-info-cache
+hardware/PicoDAC/#auto_saved_files#
+hardware/PicoDAC/_autosave-PicoDAC.kicad_sch
