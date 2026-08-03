@@ -8,6 +8,8 @@ Rough sketch:
 
 <img src="./assets/legacy_roughsketch.webp" width="512px">
 
+> (Might change this depending upon the component dimensions and the PCB layout but the basic idea will remain the same)
+
 ## **Motivation**
 
 I recently bought a cheap USB-C to 3.5mm DAC and it was working perfectly fine until it broke.
