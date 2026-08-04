@@ -38,5 +38,13 @@ I've decided to use:
 - https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf
 - https://github.com/raspberrypi/pico-sdk/issues/1924
 - https://www.lcsc.com/datasheet/C1554754.pdf
+- https://www.lcsc.com/datasheet/C668605.pdf
+- https://electronics.stackexchange.com/questions/336836/understanding-audio-jack-connection
+- https://electronics.stackexchange.com/questions/95575/how-does-the-phone-detect-if-3-5-mm-jack-circuit-is-closed
+- https://www.lcsc.com/product-detail/C33196.html
+- https://www.lcsc.com/product-detail/C2867798.html (english version: https://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf)
+- https://www.totalphase.com/blog/2024/07/what-are-i2c-pull-up-resistors-calculate-their-values/
+- https://forum.arduino.cc/t/why-use-a-47k-resistor-between-3-3v-and-sda-and-scl-port-of-esp3266/850553
+- https://files.seeedstudio.com/wiki/XIAO-RP2350/res/Seeed-Studio-XIAO-RP2350-v1.0.pdf
 
 ## 😼💖
