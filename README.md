@@ -4,11 +4,15 @@
 
 Fully custom PCB and 3D printed case.
 
-Rough sketch:
+## Rough Design sketches
 
+Initial Version:
 <img src="./assets/legacy_roughsketch.webp" width="512px">
 
-> (Might change this depending upon the component dimensions and the PCB layout but the basic idea will remain the same)
+New Revision:
+<img src="./assets/board2_rough.webp" width="512px">
+
+> (Again, might change this depending upon the component dimensions and the PCB layout but the basic idea will remain the same)
 
 ## **Motivation**
 
@@ -23,10 +27,21 @@ Naturally, the red part I've highlighted in the image slowly got bent and broke 
 To fix this problem and also make a higher-quality DAC, I've started this project.
 
 ## **Hardware**
-I've decided to use:
+Main hardware components are:
 - 1x CS43131-CNZR (A high-performance, 32-bit resolution, stereo audio DAC that supports up to 384-kHz sampling frequency with integrated low-noise ground-centered headphone amplifiers.): [LCSC part](https://www.lcsc.com/product-detail/C965907.html)
 - XIAO RP2350 instead of the 2040 as it has integrated fractional dividers (also see: [this git issue](https://github.com/raspberrypi/pico-sdk/issues/1924))
+- 4x SK6812 RGB LEDs for music level visualization
 
+The complete schematics look like:
+<img src="./assets/schematics_r1.png">
+> Note that the PCB and schematic files can be opened using KiCAD. They are located in the `/hardware/PicoDAC` directory inside this repository.
+
+Steps for viewing the PCB schematics and layout:
+- Open KiCAD
+- Click **File** (top left) >> **Open Project**
+- Navigate to the the repository's saved destination,
+- Open **/hardware/PicoDAC** directory
+- Select the file `PicoDAC.kicad_pro`
 
 ## **Firmware**
 *Coming Soon*
@@ -43,5 +58,11 @@ I've decided to use:
 - https://www.totalphase.com/blog/2024/07/what-are-i2c-pull-up-resistors-calculate-their-values/
 - https://forum.arduino.cc/t/why-use-a-47k-resistor-between-3-3v-and-sda-and-scl-port-of-esp3266/850553
 - https://files.seeedstudio.com/wiki/XIAO-RP2350/res/Seeed-Studio-XIAO-RP2350-v1.0.pdf
+- https://www.lcsc.com/datasheet/C51953293.pdf
+- https://www.lcsc.com/datasheet/C2840398.pdf
+- https://www.lcsc.com/datasheet/C2895018.pdf
+- https://wiki.seeedstudio.com/xiao_rp2350_arduino/
+- https://www.lcsc.com/datasheet/C52140417.pdf
+- https://www.lcsc.com/datasheet/C5378720.pdf
 
 ## 😼💖
