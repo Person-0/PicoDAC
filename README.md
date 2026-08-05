@@ -7,9 +7,11 @@ Fully custom PCB and 3D printed case.
 ## Rough Design sketches
 
 Initial Version:
+
 <img src="./assets/legacy_roughsketch.webp" width="512px">
 
 New Revision:
+
 <img src="./assets/board2_rough.webp" width="512px">
 
 > (Again, might change this depending upon the component dimensions and the PCB layout but the basic idea will remain the same)
@@ -33,7 +35,9 @@ Main hardware components are:
 - 4x SK6812 RGB LEDs for music level visualization
 
 The complete schematics look like:
+
 <img src="./assets/schematics_r1.png">
+
 > Note that the PCB and schematic files can be opened using KiCAD. They are located in the `/hardware/PicoDAC` directory inside this repository.
 
 Steps for viewing the PCB schematics and layout:
