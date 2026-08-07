@@ -10063,7 +10063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C1210"
 			(at 67.31 100.33 0)
 			(effects
 				(font
@@ -10072,7 +10072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C694469.pdf"
 			(at 67.31 100.33 0)
 			(effects
 				(font
@@ -10083,6 +10083,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C694469"
+			(at 67.31 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3225X7R1C156MT000N"
+			(at 67.31 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 44.45 124.46 0)
 			(effects
 				(font
@@ -10141,7 +10159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
 			(at 44.45 124.46 0)
 			(effects
 				(font
@@ -10151,6 +10169,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60474"
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX7R7BB104"
 			(at 44.45 124.46 0)
 			(effects
 				(font
@@ -10267,7 +10303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -10276,7 +10312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C335106.pdf"
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -10287,6 +10323,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C335106"
+			(at 81.28 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61A225KE47D"
+			(at 81.28 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10571,7 +10625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 60.96 255.27 0)
 			(effects
 				(font
@@ -10580,7 +10634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 60.96 255.27 0)
 			(effects
 				(font
@@ -10590,6 +10644,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 60.96 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 60.96 255.27 0)
 			(effects
 				(font
@@ -10640,7 +10712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 146.05 196.85 0)
 			(effects
 				(font
@@ -10649,7 +10721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105871.pdf"
 			(at 146.05 196.85 0)
 			(effects
 				(font
@@ -10660,6 +10732,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 146.05 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C105871"
+			(at 146.05 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-074K7L"
+			(at 146.05 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +10843,7 @@
 		(at 269.24 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10879,7 +10969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0603"
 			(at 64.77 132.08 0)
 			(effects
 				(font
@@ -10888,7 +10978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19666.pdf"
 			(at 64.77 132.08 0)
 			(effects
 				(font
@@ -10898,6 +10988,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19666"
+			(at 64.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
 			(at 64.77 132.08 0)
 			(effects
 				(font
@@ -10948,7 +11056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 48.26 182.88 0)
 			(effects
 				(font
@@ -10957,7 +11065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
 			(at 48.26 182.88 0)
 			(effects
 				(font
@@ -10967,6 +11075,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 48.26 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 48.26 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
 			(at 48.26 182.88 0)
 			(effects
 				(font
@@ -11221,7 +11347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 114.3 196.85 0)
 			(effects
 				(font
@@ -11230,7 +11356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
 			(at 114.3 196.85 0)
 			(effects
 				(font
@@ -11240,6 +11366,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 114.3 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60474"
+			(at 114.3 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX7R7BB104"
 			(at 114.3 196.85 0)
 			(effects
 				(font
@@ -12174,7 +12318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -12183,7 +12327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -12193,6 +12337,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -12411,7 +12573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C1210"
 			(at 200.66 81.28 0)
 			(effects
 				(font
@@ -12420,7 +12582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C694469.pdf"
 			(at 200.66 81.28 0)
 			(effects
 				(font
@@ -12431,6 +12593,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C694469"
+			(at 200.66 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3225X7R1C156MT000N"
+			(at 200.66 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12645,7 +12825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 39.37 124.46 0)
 			(effects
 				(font
@@ -12654,7 +12834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
 			(at 39.37 124.46 0)
 			(effects
 				(font
@@ -12664,6 +12844,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60474"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX7R7BB104"
 			(at 39.37 124.46 0)
 			(effects
 				(font
@@ -12714,7 +12912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -12723,7 +12921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C335106.pdf"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -12734,6 +12932,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C335106"
+			(at 93.98 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61A225KE47D"
+			(at 93.98 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12850,7 +13066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 215.9 196.85 0)
 			(effects
 				(font
@@ -12859,7 +13075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105871.pdf"
 			(at 215.9 196.85 0)
 			(effects
 				(font
@@ -12870,6 +13086,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 215.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C105871"
+			(at 215.9 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-074K7L"
+			(at 215.9 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13182,7 +13416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 146.05 201.93 0)
 			(effects
 				(font
@@ -13191,7 +13425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25764.pdf"
 			(at 146.05 201.93 0)
 			(effects
 				(font
@@ -13202,6 +13436,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 146.05 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25764"
+			(at 146.05 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF2003TCE"
+			(at 146.05 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13251,7 +13503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -13260,7 +13512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C335106.pdf"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -13271,6 +13523,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C335106"
+			(at 67.31 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61A225KE47D"
+			(at 67.31 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13322,7 +13592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 40.64 196.85 0)
 			(effects
 				(font
@@ -13331,7 +13601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
 			(at 40.64 196.85 0)
 			(effects
 				(font
@@ -13341,6 +13611,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60474"
+			(at 40.64 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX7R7BB104"
 			(at 40.64 196.85 0)
 			(effects
 				(font
@@ -13457,7 +13745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 97.79 137.16 0)
 			(effects
 				(font
@@ -13466,7 +13754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C335106.pdf"
 			(at 97.79 137.16 0)
 			(effects
 				(font
@@ -13477,6 +13765,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 97.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C335106"
+			(at 97.79 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61A225KE47D"
+			(at 97.79 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13915,7 +14221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 102.87 129.54 0)
 			(effects
 				(font
@@ -13924,7 +14230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C335106.pdf"
 			(at 102.87 129.54 0)
 			(effects
 				(font
@@ -13935,6 +14241,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 102.87 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C335106"
+			(at 102.87 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61A225KE47D"
+			(at 102.87 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14050,7 +14374,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -14059,7 +14383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C335106.pdf"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -14069,6 +14393,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C335106"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61A225KE47D"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -14097,7 +14439,7 @@
 		(at 360.68 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14184,7 +14526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 146.05 194.31 0)
 			(effects
 				(font
@@ -14193,7 +14535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105871.pdf"
 			(at 146.05 194.31 0)
 			(effects
 				(font
@@ -14204,6 +14546,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 146.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C105871"
+			(at 146.05 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-074K7L"
+			(at 146.05 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14253,7 +14613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -14262,7 +14622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C335106.pdf"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -14273,6 +14633,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 97.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C335106"
+			(at 97.79 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61A225KE47D"
+			(at 97.79 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14365,7 +14743,7 @@
 		(at 356.87 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14621,7 +14999,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 215.9 194.31 0)
 			(effects
 				(font
@@ -14630,7 +15008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105871.pdf"
 			(at 215.9 194.31 0)
 			(effects
 				(font
@@ -14641,6 +15019,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 215.9 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C105871"
+			(at 215.9 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-074K7L"
+			(at 215.9 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14688,7 +15084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 274.32 69.85 0)
 			(effects
 				(font
@@ -14697,7 +15093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105875.pdf"
 			(at 274.32 69.85 0)
 			(effects
 				(font
@@ -14708,6 +15104,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 274.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C105875"
+			(at 274.32 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07330RL"
+			(at 274.32 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14824,7 +15238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0201"
 			(at 93.98 129.54 0)
 			(effects
 				(font
@@ -14833,7 +15247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C335106.pdf"
 			(at 93.98 129.54 0)
 			(effects
 				(font
@@ -14844,6 +15258,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 93.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C335106"
+			(at 93.98 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61A225KE47D"
+			(at 93.98 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14997,7 +15429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 48.26 185.42 0)
 			(effects
 				(font
@@ -15006,7 +15438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
 			(at 48.26 185.42 0)
 			(effects
 				(font
@@ -15016,6 +15448,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
 			(at 48.26 185.42 0)
 			(effects
 				(font
@@ -15066,7 +15516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 93.98 255.27 0)
 			(effects
 				(font
@@ -15075,7 +15525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 93.98 255.27 0)
 			(effects
 				(font
@@ -15085,6 +15535,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 93.98 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 93.98 255.27 0)
 			(effects
 				(font
@@ -15135,7 +15603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 59.69 132.08 0)
 			(effects
 				(font
@@ -15144,7 +15612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
 			(at 59.69 132.08 0)
 			(effects
 				(font
@@ -15154,6 +15622,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60474"
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX7R7BB104"
 			(at 59.69 132.08 0)
 			(effects
 				(font
