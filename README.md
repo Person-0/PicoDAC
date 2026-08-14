@@ -36,7 +36,13 @@ Main hardware components are:
 
 The complete schematics look like:
 
-<img src="./assets/schematics_r1.png">
+<img src="./assets/schematics_r2.png">
+
+**Main Board:**
+<img src="./assets/pcb_r1_b1.png">
+
+**Board 2:**
+<img src="./assets/pcb_r1_b2.png">
 
 > Note that the PCB and schematic files can be opened using KiCAD. They are located in the `/hardware/PicoDAC` directory inside this repository.
 
@@ -62,11 +68,14 @@ Steps for viewing the PCB schematics and layout:
 - https://www.totalphase.com/blog/2024/07/what-are-i2c-pull-up-resistors-calculate-their-values/
 - https://forum.arduino.cc/t/why-use-a-47k-resistor-between-3-3v-and-sda-and-scl-port-of-esp3266/850553
 - https://files.seeedstudio.com/wiki/XIAO-RP2350/res/Seeed-Studio-XIAO-RP2350-v1.0.pdf
-- https://www.lcsc.com/datasheet/C51953293.pdf
+- https://www.lcsc.com/datasheet/C51953293.pdf (english version: https://www.alldatasheet.com/datasheet-pdf/pdf/1265214/TI/TPS7A201825PDQNR.html)
 - https://www.lcsc.com/datasheet/C2840398.pdf
 - https://www.lcsc.com/datasheet/C2895018.pdf
 - https://wiki.seeedstudio.com/xiao_rp2350_arduino/
 - https://www.lcsc.com/datasheet/C52140417.pdf
 - https://www.lcsc.com/datasheet/C5378720.pdf
+- https://forum.kicad.info/t/how-to-create-teardrops-in-pcb-editor/61920/
+- https://electronics.stackexchange.com/questions/686845/pcb-design-question-power-plane-or-fat-traces-for-high-current
+- https://www.eevblog.com/forum/eda/should-plane-be-used-to-connect-power-or-just-thicker-tracks/
 
 ## 😼💖
