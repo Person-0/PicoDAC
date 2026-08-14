@@ -26,13 +26,15 @@ I use my phone in bed a lot (yes i know this is a bad habit) vertically with the
 
 Naturally, the red part I've highlighted in the image slowly got bent and broke :(
 
-To fix this problem and also make a higher-quality DAC, I've started this project.
+To fix this issue, learn more about audio electronics, engineer a cool device and also make a higher-quality DAC in the process, I've started this project.
 
 ## **Hardware**
 Main hardware components are:
 - 1x CS43131-CNZR (A high-performance, 32-bit resolution, stereo audio DAC that supports up to 384-kHz sampling frequency with integrated low-noise ground-centered headphone amplifiers.): [LCSC part](https://www.lcsc.com/product-detail/C965907.html)
 - XIAO RP2350 instead of the 2040 as it has integrated fractional dividers (also see: [this git issue](https://github.com/raspberrypi/pico-sdk/issues/1924))
 - 4x SK6812 RGB LEDs for music level visualization
+
+> **[View complete BOM](./hardware/bom.csv)**
 
 The complete schematics look like:
 
