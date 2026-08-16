@@ -1,5 +1,7 @@
 # **PicoDAC**
 
+<img src="./assets/waveform_picodac_transparent.png" width="128px"><br>
+
 *USB-C to 3.5mm HiFi mini DAC*
 
 Fully custom PCB and 3D printed case.
@@ -10,9 +12,13 @@ Initial Version:
 
 <img src="./assets/legacy_roughsketch.webp" width="512px">
 
-New Revision:
+Revision 1:
 
 <img src="./assets/board2_rough.webp" width="512px">
+
+Revision 2:
+
+<img src="./assets/board_roughsketch_2.webp" width="512px">
 
 > (Again, might change this depending upon the component dimensions and the PCB layout but the basic idea will remain the same)
 
@@ -32,21 +38,21 @@ To fix this issue, learn more about audio electronics, engineer a cool device an
 Main hardware components are:
 - 1x CS43131-CNZR (A high-performance, 32-bit resolution, stereo audio DAC that supports up to 384-kHz sampling frequency with integrated low-noise ground-centered headphone amplifiers.): [LCSC part](https://www.lcsc.com/product-detail/C965907.html)
 - XIAO RP2350 instead of the 2040 as it has integrated fractional dividers (also see: [this git issue](https://github.com/raspberrypi/pico-sdk/issues/1924))
-- 4x SK6812 RGB LEDs for music level visualization
+- 9x SK6812 RGB LEDs for music level visualization
 
 > **[View complete BOM](./hardware/bom.csv)**
 
 The complete schematics look like:
 
-<img src="./assets/schematics_r2.png">
+<img src="./assets/schematics_r3.jpg">
 
 **Main Board:**
 
-<img src="./assets/pcb_r1_b1.png">
+<img src="./assets/pcb_r2_b1.png">
 
 **Board 2:**
 
-<img src="./assets/pcb_r1_b2.png">
+<img src="./assets/pcb_r2_b2.png">
 
 > Note that the PCB and schematic files can be opened using KiCAD. They are located in the `/hardware/PicoDAC` directory inside this repository.
 
