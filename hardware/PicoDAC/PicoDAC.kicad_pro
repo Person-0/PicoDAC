@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.2,
-          "width": 1.6
+          "height": 2.7,
+          "width": 1.635
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -96,9 +96,9 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -517,7 +517,7 @@
       "plot": "../../.exports/",
       "pos_files": "../../.exports/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../CAD/models/PicoDAC.glb",
       "svg": "",
       "vrml": ""
     },
