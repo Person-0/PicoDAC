@@ -42,17 +42,21 @@ Main hardware components are:
 
 > **[View complete BOM](./hardware/bom.csv)**
 
+PCB Preview:
+
+<img src="./assets/pcb_preview.webp">
+
 The complete schematics look like:
 
-<img src="./assets/schematics_r3.jpg">
+<img src="./assets/schematics_r4.png">
 
 **Main Board:**
 
-<img src="./assets/pcb_r2_b1.png">
+<img src="./assets/pcb_r3_b1.png">
 
 **Board 2:**
 
-<img src="./assets/pcb_r2_b2.png">
+<img src="./assets/pcb_r3_b2.png">
 
 > Note that the PCB and schematic files can be opened using KiCAD. They are located in the `/hardware/PicoDAC` directory inside this repository.
 
@@ -67,10 +71,9 @@ Steps for viewing the PCB schematics and layout:
 *Coming Soon*
 
 ## **References**
+- All datasheets in [**BOM.csv**](./hardware/bom.csv)
 - https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf
 - https://github.com/raspberrypi/pico-sdk/issues/1924
-- https://www.lcsc.com/datasheet/C1554754.pdf
-- https://www.lcsc.com/datasheet/C668605.pdf
 - https://electronics.stackexchange.com/questions/336836/understanding-audio-jack-connection
 - https://electronics.stackexchange.com/questions/95575/how-does-the-phone-detect-if-3-5-mm-jack-circuit-is-closed
 - https://www.lcsc.com/product-detail/C33196.html
@@ -78,12 +81,8 @@ Steps for viewing the PCB schematics and layout:
 - https://www.totalphase.com/blog/2024/07/what-are-i2c-pull-up-resistors-calculate-their-values/
 - https://forum.arduino.cc/t/why-use-a-47k-resistor-between-3-3v-and-sda-and-scl-port-of-esp3266/850553
 - https://files.seeedstudio.com/wiki/XIAO-RP2350/res/Seeed-Studio-XIAO-RP2350-v1.0.pdf
-- https://www.lcsc.com/datasheet/C51953293.pdf (english version: https://www.alldatasheet.com/datasheet-pdf/pdf/1265214/TI/TPS7A201825PDQNR.html)
-- https://www.lcsc.com/datasheet/C2840398.pdf
-- https://www.lcsc.com/datasheet/C2895018.pdf
+- https://www.alldatasheet.com/datasheet-pdf/pdf/1265214/TI/TPS7A201825PDQNR.html
 - https://wiki.seeedstudio.com/xiao_rp2350_arduino/
-- https://www.lcsc.com/datasheet/C52140417.pdf
-- https://www.lcsc.com/datasheet/C5378720.pdf
 - https://forum.kicad.info/t/how-to-create-teardrops-in-pcb-editor/61920/
 - https://electronics.stackexchange.com/questions/686845/pcb-design-question-power-plane-or-fat-traces-for-high-current
 - https://www.eevblog.com/forum/eda/should-plane-be-used-to-connect-power-or-just-thicker-tracks/
