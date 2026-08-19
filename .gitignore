@@ -6,6 +6,7 @@
 *.lck
 *~$*
 
+hardware/working_exports
 hardware/bom.xlsx
 hardware/PicoDAC/PicoDAC-backups
 hardware/PicoDAC/fp-info-cache
