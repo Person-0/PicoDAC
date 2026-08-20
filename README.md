@@ -44,7 +44,7 @@ Main hardware components are:
 
 PCB Preview:
 
-<img src="./assets/pcb_preview.webp">
+<img src="./assets/pcb_preview2.png">
 
 The complete schematics look like:
 
@@ -52,11 +52,11 @@ The complete schematics look like:
 
 **Main Board:**
 
-<img src="./assets/pcb_r3_b1.png">
+<img src="./assets/pcb_r4_b1.png">
 
 **Board 2:**
 
-<img src="./assets/pcb_r3_b2.png">
+<img src="./assets/pcb_r4_b2.png">
 
 > Note that the PCB and schematic files can be opened using KiCAD. They are located in the `/hardware/PicoDAC` directory inside this repository.
 
