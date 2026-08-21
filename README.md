@@ -6,21 +6,22 @@
 
 Fully custom PCB and 3D printed case.
 
-## Rough Design sketches
+## Design
 
-Initial Version:
+### Preview Images
+Note that a specially cut transparent acrylic sheet will be used as the top lid of the case which will be superglued to part of the case that is non-detachable.
 
-<img src="./assets/legacy_roughsketch.webp" width="512px">
+<img src="./CAD/imgs/preview (1).png" width="512px">
+<img src="./CAD/imgs/preview (2).png" width="512px">
+<img src="./CAD/imgs/preview (3).png" width="512px">
+<img src="./CAD/imgs/preview (4).png" width="512px">
+<img src="./CAD/imgs/preview (5).png" width="512px">
+<img src="./CAD/imgs/preview (6).png" width="512px">
 
-Revision 1:
+<br>
 
-<img src="./assets/board2_rough.webp" width="512px">
-
-Revision 2:
-
-<img src="./assets/board_roughsketch_2.webp" width="512px">
-
-> (Again, might change this depending upon the component dimensions and the PCB layout but the basic idea will remain the same)
+All the design files are available in the [CAD folder](./CAD/).<br>
+Exported STEP files for 3d-printing are available in [/CAD/exports](./CAD/exports/).
 
 ## **Motivation**
 
