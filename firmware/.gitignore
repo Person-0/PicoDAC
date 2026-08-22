@@ -1,0 +1,5 @@
+build
+!.vscode/*
+
+# doesnt work might add later
+src/audio_debug.py
