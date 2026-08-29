@@ -9,7 +9,9 @@ Fully custom PCB and 3D printed case.
 ## Design
 
 ### Preview Images
-Note that a specially cut transparent acrylic sheet will be used as the top lid of the case which will be superglued to part of the case that is non-detachable.
+Note that a specially cut transparent acrylic sheet will be used as the top lid of the main PCB case which will be superglued to part of the case that is non-detachable.
+
+As for the case of the board - 2, since it really is just two directly connected USB-C plugs, the top and bottom part of the case will be glued together after seating the board-2 PCB inside it properly (after testing it).
 
 <img src="./CAD/imgs/preview (1).png" width="512px">
 <img src="./CAD/imgs/preview (2).png" width="512px">
@@ -17,13 +19,20 @@ Note that a specially cut transparent acrylic sheet will be used as the top lid 
 <img src="./CAD/imgs/preview (4).png" width="512px">
 <img src="./CAD/imgs/preview (5).png" width="512px">
 <img src="./CAD/imgs/preview (6).png" width="512px">
+<img src="./CAD/imgs/board2_preview (1).png" width="512px">
+<img src="./CAD/imgs/board2_preview (2).png" width="512px">
 
 <br>
 
 All the design files are available in the [CAD folder](./CAD/).<br>
 Exported STEP files for 3d-printing are available in [/CAD/exports](./CAD/exports/).
 
-> Note that files [1_PicoDAC_Case_DetachablePart.step](./CAD/exports/1_PicoDAC_Case_DetachablePart.step) and [2_PicoDAC_Case_Main.step](./CAD/exports/2_PicoDAC_Case_Main.step) need to be printed as separate bodies.
+> Also note that the files:<br> 
+> [1_PicoDAC_Case_DetachablePart.step](./CAD/exports/1_PicoDAC_Case_DetachablePart.step)<br>
+> [2_PicoDAC_Case_Main.step](./CAD/exports/2_PicoDAC_Case_Main.step)<br>
+> [3_board2_top_case.step](./CAD/exports/3_board2_top_case.step)<br>
+> [4_board2_bottom_case.step](./CAD/exports/4_board2_bottom_case.step)<br>
+> need to be printed as separate bodies.
 
 ## **Motivation**
 
