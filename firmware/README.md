@@ -14,11 +14,17 @@ Currently only these two things have been tested to work:
 - Windows11 recognizes it as a USB Audio Class 2 Device
 - Streaming audio makes the onboard LED as set in the Blink pattern enum in [PicoDAC.c](./PicoDAC.c)
 
-Other than that, stuff like the neopixel, dac init etc. is untested and will be tested and fixed if required once I get my hands on the necessary components or/and the built PCB.
+The following stuff is untested and will be tested, fixed if required once I get my hands on the necessary components or/and the built PCB:
+- Onboard Neopixel RGB LED
+- DAC Initialization process
+
+The following stuff will be implemented after the stuff mentioned above is done:
+- DAC audio playback (ring buffer implementation?)
+- 9x RGB LED strip (music level visualizer): Since it requires me to process the music data, i've decided to do it after the DAC accepts the USB audio data
 
 ## Current Startup sequence
 1. Power On (everything is powered up, uses USB-C VBUS)
-2. MCU's Onboard LED indicator blinks and shows USB status accodingly
+2. MCU's Onboard LED indicator blinks and shows USB status live accodingly
 3. MCU's Onboard Neopixel indicator shows DAC init status **(untested)**
     - Blue = init
     - Green = DAC OK
