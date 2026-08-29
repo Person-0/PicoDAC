@@ -1,7 +1,7 @@
 // dac pins
 #define PIN_DAC_MCLK                0
 #define PIN_DAC_SCLK1               1
-#define PIN_DAC_LCRK1               2
+#define PIN_DAC_LRCK1               2
 #define PIN_DAC_SDIN1               3
 #define PIN_DAC_RESET               4
 #define PIN_DAC_SDA                 6
