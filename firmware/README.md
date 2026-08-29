@@ -2,13 +2,29 @@
 
 This directory contains the firmware for PicoDAC.
 
-> Note that currently the board specified is `Pico` (for testing purposes) however the final build will be for `Pico-2`.
+> Note that the board selected is `Pico 2` (non risc-v) but the actual board is XIAORP2350, which has an extra onboard Neopixel RGB LED that we are using to show the DAC state (checkout [src/dac.c](./src/dac.c)).
 
-It is WIP and needs real-world testing, hence the current state is very basic.
+
+## Current State
+
+Firmware is WIP and needs real-world testing, hence the current state is very basic.
+
+Currently only these two things have been tested to work:
+
 - Windows11 recognizes it as a USB Audio Class 2 Device
 - Streaming audio makes the onboard LED as set in the Blink pattern enum in [PicoDAC.c](./PicoDAC.c)
 
-## Special Notes:
+Other than that, stuff like the neopixel, dac init etc. is untested and will be tested and fixed if required once I get my hands on the necessary components or/and the built PCB.
+
+## Current Startup sequence
+1. Power On (everything is powered up, uses USB-C VBUS)
+2. MCU's Onboard LED indicator blinks and shows USB status accodingly
+3. MCU's Onboard Neopixel indicator shows DAC init status **(untested)**
+    - Blue = init
+    - Green = DAC OK
+    - Red = DAC init failed / error
+
+## Special Notes
 
 - Use the official Raspberry Pi Pico VS Code extension to build or flash the firmware as it will save you lots of time and config messes.
 - (VERY IMPORTANT) If the device freezes on audio playback, downgrade the **TinyUSB** version from `0.18.0` (which comes bundled with `Pico SDK 2.3.0`) to `0.17.0`. Debugging this took me hours and this was the only fix I found that worked for me. See [this github issue](https://github.com/hathach/tinyusb/discussions/3215).
