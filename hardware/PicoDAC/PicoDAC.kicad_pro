@@ -515,7 +515,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../../.exports/",
-      "pos_files": "../working_exports/11.09_19_8_26/",
+      "pos_files": "../working_exports",
       "specctra_dsn": "",
       "step": "../../CAD/models/PicoDAC.glb",
       "svg": "",

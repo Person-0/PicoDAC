@@ -10632,7 +10632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -10650,7 +10650,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C1525"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -10659,7 +10659,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -11466,7 +11475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105871.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705941367193600"
 			(at 139.7 196.85 0)
 			(effects
 				(font
@@ -11484,7 +11493,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C105871"
+		(property "LCSC Part" "C25900"
 			(at 139.7 196.85 90)
 			(effects
 				(font
@@ -11493,7 +11502,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-074K7L"
+		(property "MPN" "0402WGF4701TCE"
+			(at 139.7 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 139.7 196.85 90)
 			(effects
 				(font
@@ -11810,7 +11828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
 			(at 41.91 182.88 0)
 			(effects
 				(font
@@ -11828,7 +11846,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 41.91 182.88 0)
 			(effects
 				(font
@@ -11837,7 +11855,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
+			(at 41.91 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 41.91 182.88 0)
 			(effects
 				(font
@@ -12101,7 +12128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 107.95 196.85 0)
 			(effects
 				(font
@@ -12119,7 +12146,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C1525"
 			(at 107.95 196.85 0)
 			(effects
 				(font
@@ -12128,7 +12155,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 107.95 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 107.95 196.85 0)
 			(effects
 				(font
@@ -13175,7 +13211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -13193,7 +13229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -13202,7 +13238,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -13690,7 +13735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -13708,7 +13753,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C1525"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -13717,7 +13762,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -13931,7 +13985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105871.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705941367193600"
 			(at 209.55 196.85 0)
 			(effects
 				(font
@@ -13949,7 +14003,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C105871"
+		(property "LCSC Part" "C25900"
 			(at 209.55 196.85 90)
 			(effects
 				(font
@@ -13958,7 +14012,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-074K7L"
+		(property "MPN" "0402WGF4701TCE"
+			(at 209.55 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 209.55 196.85 90)
 			(effects
 				(font
@@ -14457,7 +14520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 34.29 196.85 0)
 			(effects
 				(font
@@ -14475,7 +14538,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C1525"
 			(at 34.29 196.85 0)
 			(effects
 				(font
@@ -14484,7 +14547,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 34.29 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 34.29 196.85 0)
 			(effects
 				(font
@@ -15429,7 +15501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105871.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705941367193600"
 			(at 139.7 194.31 0)
 			(effects
 				(font
@@ -15447,7 +15519,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C105871"
+		(property "LCSC Part" "C25900"
 			(at 139.7 194.31 90)
 			(effects
 				(font
@@ -15456,7 +15528,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-074K7L"
+		(property "MPN" "0402WGF4701TCE"
+			(at 139.7 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 139.7 194.31 90)
 			(effects
 				(font
@@ -15903,7 +15984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105871.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705941367193600"
 			(at 209.55 194.31 0)
 			(effects
 				(font
@@ -15921,7 +16002,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C105871"
+		(property "LCSC Part" "C25900"
 			(at 209.55 194.31 90)
 			(effects
 				(font
@@ -15930,7 +16011,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-074K7L"
+		(property "MPN" "0402WGF4701TCE"
+			(at 209.55 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 209.55 194.31 90)
 			(effects
 				(font
@@ -15988,7 +16078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105875.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706017514917888"
 			(at 265.43 179.07 0)
 			(effects
 				(font
@@ -16006,7 +16096,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C105875"
+		(property "LCSC Part" "C25104"
 			(at 265.43 179.07 90)
 			(effects
 				(font
@@ -16015,7 +16105,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "0402WGF3300TCE"
+			(at 265.43 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 265.43 179.07 90)
 			(effects
 				(font
@@ -16333,7 +16432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
 			(at 41.91 185.42 0)
 			(effects
 				(font
@@ -16351,7 +16450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 41.91 185.42 0)
 			(effects
 				(font
@@ -16360,7 +16459,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
+			(at 41.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 41.91 185.42 0)
 			(effects
 				(font
@@ -16610,7 +16718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 53.34 132.08 0)
 			(effects
 				(font
@@ -16628,7 +16736,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C1525"
 			(at 53.34 132.08 0)
 			(effects
 				(font
@@ -16637,7 +16745,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 53.34 132.08 0)
 			(effects
 				(font
