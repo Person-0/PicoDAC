@@ -30,6 +30,16 @@ The following stuff will be implemented after the stuff mentioned above is done:
     - Green = DAC OK
     - Red = DAC init failed / error
 
+## Firmware Flashing
+- Install the [Raspberry Pi Pico VS Code extension](https://marketplace.visualstudio.com/items?itemName=raspberry-pi.raspberry-pi-pico)
+- Clone this repository
+- Open this folder (/firmware) in VS Code
+- The extension will automatically detect your workspace and install necessary toolchains that will be used to compile the firmware
+- Edit files if required
+- Press `Compile` at the bottom bar to test whether the firmware compiles successfully
+- Hold the boot tactile switch on the XIAO-RP2350 while plugging it into your PC, this will allow us to flash the firmware
+- Use the `Run` button next to the Compile button at the bottom bar to compile, flash the firmware to the Pico. After the firmware is flashed, the Pico will auto reboot and you will see the results directly.
+
 ## Special Notes
 
 - Use the official Raspberry Pi Pico VS Code extension to build or flash the firmware as it will save you lots of time and config messes.

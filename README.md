@@ -81,7 +81,7 @@ Steps for viewing the PCB schematics and layout:
 - Select the file `PicoDAC.kicad_pro`
 
 ## **Firmware**
-*Checkout the [firmware directory](./firmware/) for the firmware README.md file and current status.*
+*Checkout the [firmware directory](./firmware/) for the firmware README.md file and current status. It contains building, flashing instructions and also some special notes that might help with the process.*
 
 ## Ordering Parts, PCB/PCBA
 
