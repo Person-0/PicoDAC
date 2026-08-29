@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <string.h>
-
 #include "pico/stdlib.h"
-#include "src/common_types.h"
 #include "src/usb_descriptors.h"
 #include "tusb.h"
+#include "src/common_types.h"
 
 //--------------------------------------------------------------------+
 // MACRO CONSTANT TYPEDEF PROTOTYPES
@@ -15,9 +14,9 @@
 
 // List of supported sample rates
 #if defined(__RX__)
-const uint32_t sample_rates[] = {44100, 48000};
+	const uint32_t sample_rates[] = {44100, 48000};
 #else
-const uint32_t sample_rates[] = {44100, 48000, 88200, 96000};
+	const uint32_t sample_rates[] = {44100, 48000, 88200, 96000};
 #endif
 
 uint32_t current_sample_rate = 44100;
@@ -57,8 +56,7 @@ static uint32_t blink_interval_ms = BLINK_NOT_MOUNTED;
 // Audio controls
 // Current states
 int8_t mute[CFG_TUD_AUDIO_FUNC_1_N_CHANNELS_RX + 1];  // +1 for master channel 0
-int16_t
-    volume[CFG_TUD_AUDIO_FUNC_1_N_CHANNELS_RX + 1];  // +1 for master channel 0
+int16_t volume[CFG_TUD_AUDIO_FUNC_1_N_CHANNELS_RX + 1];  // +1 for master channel 0
 
 // Buffer for speaker data
 uint16_t i2s_dummy_buffer[CFG_TUD_AUDIO_FUNC_1_EP_OUT_SW_BUF_SZ / 2];
@@ -67,37 +65,33 @@ void led_blinking_task(void);
 void audio_task(void);
 
 #if CFG_AUDIO_DEBUG
-void audio_debug_task(void);
-uint8_t current_alt_settings;
-uint16_t fifo_count;
-uint32_t fifo_count_avg;
+	void audio_debug_task(void);
+	uint8_t current_alt_settings;
+	uint16_t fifo_count;
+	uint32_t fifo_count_avg;
 #endif
 
 /*------------- MAIN -------------*/
 int main(void) {
-  stdio_init_all();
+	stdio_init_all();
 
-  // led setup
-  gpio_init(ONBOARD_LED_PIN);
-  gpio_set_dir(ONBOARD_LED_PIN, GPIO_OUT);
+	// led setup
+	gpio_init(ONBOARD_LED_PIN);
+	gpio_set_dir(ONBOARD_LED_PIN, GPIO_OUT);
 
-  // init device stack on configured roothub port
-  tud_init(BOARD_TUD_RHPORT);
+	// init device stack on configured roothub port
+	tud_init(BOARD_TUD_RHPORT);
 
-  //   if (board_init_after_tusb) {
-  //     board_init_after_tusb();
-  //   }
+	TU_LOG1("Speaker running\r\n");
 
-  TU_LOG1("Speaker running\r\n");
-
-  while (1) {
-    tud_task();  // TinyUSB device task
-    led_blinking_task();
-#if CFG_AUDIO_DEBUG
-    audio_debug_task();
-#endif
-    audio_task();
-  }
+	while (1) {
+		tud_task();  // TinyUSB device task
+		led_blinking_task();
+		#if CFG_AUDIO_DEBUG
+			audio_debug_task();
+		#endif
+			audio_task();
+	}
 }
 
 //--------------------------------------------------------------------+
@@ -420,13 +414,12 @@ void led_blinking_task(void) {
 //--------------------------------------------------------------------+
 // HID interface for audio debug
 //--------------------------------------------------------------------+
-// Every 1ms, we will sent 1 debug information report
+// Every 20ms, we will sent 1 debug information report
 void audio_debug_task(void) {
-  static uint32_t start_ms = 0;
-  uint32_t curr_ms = board_millis();
-  if (start_ms == curr_ms) return;  // not enough time
-  start_ms = curr_ms;
-
+	static uint32_t start_ms = 0;
+	uint32_t curr_ms = board_millis();
+	if (curr_ms - start_ms < 20) return;
+	start_ms = curr_ms;
   audio_debug_info_t debug_info;
   debug_info.sample_rate = current_sample_rate;
   debug_info.alt_settings = current_alt_settings;

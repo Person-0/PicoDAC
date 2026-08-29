@@ -62,9 +62,9 @@ extern "C" {
 
 // It's recommended to disable debug unless for control requests debugging,
 // as the extra time needed will impact data stream !
-//#ifndef CFG_TUSB_DEBUG
+#ifndef CFG_TUSB_DEBUG
 #define CFG_TUSB_DEBUG        0
-// #endif
+#endif
 
 // Enable Device stack
 #define CFG_TUD_ENABLED       1
@@ -101,7 +101,7 @@ extern "C" {
 
 // Expose audio class debug information via HID interface
 #ifndef CFG_AUDIO_DEBUG
-#define CFG_AUDIO_DEBUG           0
+#define CFG_AUDIO_DEBUG           1
 #endif
 
 #ifndef CFG_TUD_ENDPOINT0_SIZE
