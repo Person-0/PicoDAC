@@ -23,6 +23,8 @@ Note that a specially cut transparent acrylic sheet will be used as the top lid 
 All the design files are available in the [CAD folder](./CAD/).<br>
 Exported STEP files for 3d-printing are available in [/CAD/exports](./CAD/exports/).
 
+> Note that files [1_PicoDAC_Case_DetachablePart.step](./CAD/exports/1_PicoDAC_Case_DetachablePart.step) and [2_PicoDAC_Case_Main.step](./CAD/exports/2_PicoDAC_Case_Main.step) need to be printed as separate bodies.
+
 ## **Motivation**
 
 I recently bought a cheap USB-C to 3.5mm DAC and it was working perfectly fine until it broke.
