@@ -1,16 +1,20 @@
 #include <stdio.h>
 #include <string.h>
+#include "src/pindefs.h"
 #include "pico/stdlib.h"
 #include "src/usb_descriptors.h"
 #include "tusb.h"
 #include "src/common_types.h"
 
 //--------------------------------------------------------------------+
-// MACRO CONSTANT TYPEDEF PROTOTYPES
+// HELPER FNS
 //--------------------------------------------------------------------+
 
-#define ONBOARD_LED_PIN 25
 #define board_millis() to_ms_since_boot(get_absolute_time())
+
+//--------------------------------------------------------------------+
+// MACRO CONSTANT TYPEDEF PROTOTYPES
+//--------------------------------------------------------------------+
 
 // List of supported sample rates
 #if defined(__RX__)
@@ -76,8 +80,8 @@ int main(void) {
 	stdio_init_all();
 
 	// led setup
-	gpio_init(ONBOARD_LED_PIN);
-	gpio_set_dir(ONBOARD_LED_PIN, GPIO_OUT);
+	gpio_init(PIN_ONBOARD_LED);
+	gpio_set_dir(PIN_ONBOARD_LED, GPIO_OUT);
 
 	// init device stack on configured roothub port
 	tud_init(BOARD_TUD_RHPORT);
@@ -406,7 +410,7 @@ void led_blinking_task(void) {
   if (board_millis() - start_ms < blink_interval_ms) return;
   start_ms += blink_interval_ms;
 
-  gpio_put(ONBOARD_LED_PIN, led_state);
+  gpio_put(PIN_ONBOARD_LED, led_state);
   led_state = 1 - led_state;
 }
 
