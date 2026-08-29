@@ -69,7 +69,32 @@ Steps for viewing the PCB schematics and layout:
 - Select the file `PicoDAC.kicad_pro`
 
 ## **Firmware**
-*Coming Soon*
+*Checkout the [firmware directory](./firmware/) for the firmware README.md file and current status.*
+
+## Ordering Parts, PCB/PCBA
+
+I will be using JLCPCB along with their PCB Assembly service to get this PCB built assembled as it is the cheapest and best option available in my region.
+
+Other than that, the only extra part is the **XIAO RP2350** MCU which is available on [robu.in](https://robu.in/).
+
+> Note that the following PCB, PCBA costs are for 5 PCBs out of which 2 are assembled (this is the MOQ for JLCPCB) and also I have used basic components instead of extended wherever possible to reduce costs. 
+
+| S.No | Name                                 | Description                                        | Qty | Product URL                                                                     | Effective Cost ($) |
+| ---: | ------------------------------------ | -------------------------------------------------- | --: | ------------------------------------------------------------------------------- | -----------------: |
+|    1 | JLCPCB_PCB                           | PCB                                                |   1 | ~                                                                               |               7.00 |
+|    2 | JLCPCB_Assembly                      | PCB Assembly                                       |   1 | ~                                                                               |              68.88 |
+|    3 | JLCPCB_Shipping                      | Lowest price shipping: UPS Worldwide Express Saver |   1 | ~                                                                               |               9.10 |
+|    4 | JLCPCB_Coupons                       | ~                                                  |   1 | ~                                                                               |             -10.00 |
+|    5 | SeeedStudio XIAO RP2350              | MCU: XIAO RP2350                                   |   1 | [robu.in/...](https://robu.in/product/seeedstudio-xiao-rp2350-raspberry-pi-rp2350/) |               8.69 |
+|    6 | Shipping for SeeedStudio XIAO RP2350 | Shipping for XIAO RP2350                           |   1 | ~ |               0.51 |
+|      |                                      |                                                    |     | **Total ($)**                                                                   |          **84.18** |
+
+
+
+Please checkout the [/hardware/Ordering/](./hardware/Ordering/) directory to get the gerber, bom and cpl files to upload on JLC website.
+
+<img src="./hardware/Ordering/jlc_cart.png">
+<img src="./hardware/Ordering/robu_cart.png">
 
 ## **References**
 - All datasheets in [**BOM.csv**](./hardware/bom.csv)
