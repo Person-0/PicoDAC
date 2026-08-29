@@ -2,6 +2,8 @@
 
 This directory contains the firmware for PicoDAC.
 
+> Note that currently the board specified is `Pico` (for testing purposes) however the final build will be for `Pico-2`.
+
 It is WIP and needs real-world testing, hence the current state is very basic.
 - Windows11 recognizes it as a USB Audio Class 2 Device
 - Streaming audio makes the onboard LED as set in the Blink pattern enum in [PicoDAC.c](./PicoDAC.c)
