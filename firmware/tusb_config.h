@@ -31,11 +31,7 @@
 extern "C" {
 #endif
 
-#include "src/usb_descriptors.h"
-
-// GENERAL FLAGS
-#define TUD_OPT_HIGH_SPEED 0
-//
+#include "./src/usb_descriptors.h"
 
 //--------------------------------------------------------------------+
 // Board Specific Configuration
@@ -66,9 +62,9 @@ extern "C" {
 
 // It's recommended to disable debug unless for control requests debugging,
 // as the extra time needed will impact data stream !
-#ifndef CFG_TUSB_DEBUG
+//#ifndef CFG_TUSB_DEBUG
 #define CFG_TUSB_DEBUG        0
-#endif
+// #endif
 
 // Enable Device stack
 #define CFG_TUD_ENABLED       1
@@ -138,7 +134,10 @@ extern "C" {
 #define CFG_TUD_AUDIO_ENABLE_FEEDBACK_FORMAT_CORRECTION              0
 
 // Audio format type I specifications
+#if defined(__RX__)
 #define CFG_TUD_AUDIO_FUNC_1_MAX_SAMPLE_RATE                         48000
+#else
+#define CFG_TUD_AUDIO_FUNC_1_MAX_SAMPLE_RATE                         96000
 #endif
 
 #define CFG_TUD_AUDIO_FUNC_1_N_CHANNELS_RX                           2
@@ -165,3 +164,5 @@ extern "C" {
 #ifdef __cplusplus
 }
 #endif
+
+#endif /* _TUSB_CONFIG_H_ */

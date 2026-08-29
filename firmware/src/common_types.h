@@ -26,7 +26,8 @@
 #ifndef _COMMON_TYPES_H_
 #define _COMMON_TYPES_H_
 
-enum {
+enum
+{
   ITF_NUM_AUDIO_CONTROL = 0,
   ITF_NUM_AUDIO_STREAMING,
 #if CFG_AUDIO_DEBUG
@@ -36,15 +37,16 @@ enum {
 };
 
 #if CFG_AUDIO_DEBUG
-typedef struct {
-  uint32_t sample_rate;
-  uint8_t alt_settings;
-  int8_t mute[CFG_TUD_AUDIO_FUNC_1_N_CHANNELS_RX + 1];
-  int16_t volume[CFG_TUD_AUDIO_FUNC_1_N_CHANNELS_RX + 1];
-  uint16_t fifo_size;
-  uint16_t fifo_count;
-  uint16_t fifo_count_avg;
-} audio_debug_info_t;
+typedef struct
+  {
+    uint32_t sample_rate;
+    uint8_t alt_settings;
+    int8_t mute[CFG_TUD_AUDIO_FUNC_1_N_CHANNELS_RX + 1];
+    int16_t volume[CFG_TUD_AUDIO_FUNC_1_N_CHANNELS_RX + 1];
+    uint16_t fifo_size;
+    uint16_t fifo_count;
+    uint16_t fifo_count_avg;
+  } audio_debug_info_t;
 #endif
 
 #endif
