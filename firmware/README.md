@@ -30,7 +30,7 @@ The following stuff will be implemented after the stuff mentioned above is done:
     - Green = DAC OK
     - Red = DAC init failed / error
 
-## Firmware Flashing
+## Firmware Compiling / Flashing
 - Install the [Raspberry Pi Pico VS Code extension](https://marketplace.visualstudio.com/items?itemName=raspberry-pi.raspberry-pi-pico)
 - Clone this repository
 - Open this folder (/firmware) in VS Code
