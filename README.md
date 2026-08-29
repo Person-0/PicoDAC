@@ -97,15 +97,19 @@ Other than that, the only extra part is the **XIAO RP2350** MCU which is availab
 |    3 | JLCPCB_Shipping                      | Lowest price shipping: UPS Worldwide Express Saver |   1 | ~                                                                               |               9.10 |
 |    4 | JLCPCB_Coupons                       | ~                                                  |   1 | ~                                                                               |             -10.00 |
 |    5 | SeeedStudio XIAO RP2350              | MCU: XIAO RP2350                                   |   1 | [robu.in/...](https://robu.in/product/seeedstudio-xiao-rp2350-raspberry-pi-rp2350/) |               8.69 |
-|    6 | Shipping for SeeedStudio XIAO RP2350 | Shipping for XIAO RP2350                           |   1 | ~ |               0.51 |
-|      |                                      |                                                    |     | **Total ($)**                                                                   |          **84.18** |
+|    6 | Shipping for SeeedStudio XIAO RP2350 | Standard Shipping for XIAO RP2350                           |   1 | ~ |               0.51 |
+|    5 | Acrylic Lid for Main Case            | Acrylic Laser Cutout (Qty = 2 as cost per piece is below 80INR and robu.in requires minimum cost to be atleast 80INR for non-metal laser cutting service order)                                  |   2 | ~ |               1.63 |
+|    6 | Shipping for Acrylic Lid | Standard Shipping for Acrylic Lid                           |   1 | ~ |               0.51 |
+|      |                                      |                                                    |     | **Total ($)**                                                                   |          **86.32** |
 
-
+> The DXF file for the acrylic lid is available as [Main_Case_Lid_DoNotPrint.dxf](./CAD/exports/Main_Case_Lid_DoNotPrint.dxf) <br>
+> Robu.in does not allow laser cutout service orders in the same cart as normal products, hence the two different 0.51$ shipping costs.
 
 Please checkout the [/hardware/Ordering/](./hardware/Ordering/) directory to get the gerber, bom and cpl files to upload on JLC website.
 
 <img src="./hardware/Ordering/jlc_cart.png">
 <img src="./hardware/Ordering/robu_cart.png">
+<img src="./hardware/Ordering/robu_cart_2.png">
 
 ## **References**
 - All datasheets in [**BOM.csv**](./hardware/bom.csv)
