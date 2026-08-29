@@ -39,7 +39,7 @@ Other than that, stuff like the neopixel, dac init etc. is untested and will be 
 - GP06 - DAC_SDA
 - GP07 - DAC_SCL
 <br>...
-- GP22 - PIN_ONBOARD_NEOPIXEL
-- GP23 - PIN_ONBOARD_NEOPIXEL_PWR
-- GP25 - PIN_ONBOARD_LED
+- GP22 - ONBOARD_NEOPIXEL
+- GP23 - ONBOARD_NEOPIXEL_PWR
+- GP25 - ONBOARD_LED
 - GP26 - LED_CONTROL (9x SK6812 Row)
