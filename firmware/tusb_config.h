@@ -105,7 +105,7 @@ extern "C" {
 
 // Expose audio class debug information via HID interface
 #ifndef CFG_AUDIO_DEBUG
-#define CFG_AUDIO_DEBUG           1
+#define CFG_AUDIO_DEBUG           0
 #endif
 
 #ifndef CFG_TUD_ENDPOINT0_SIZE

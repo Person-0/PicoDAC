@@ -9,6 +9,7 @@
 // MACRO CONSTANT TYPEDEF PROTOTYPES
 //--------------------------------------------------------------------+
 
+#define ONBOARD_LED_PIN 25
 #define board_millis() to_ms_since_boot(get_absolute_time())
 
 // List of supported sample rates
@@ -25,9 +26,9 @@ uint32_t current_sample_rate = 44100;
  * - 2500 ms : device is suspended
  */
 enum {
-  BLINK_STREAMING = 25,
-  BLINK_NOT_MOUNTED = 250,
-  BLINK_MOUNTED = 1000,
+  BLINK_STREAMING = 250,
+  BLINK_NOT_MOUNTED = 500,
+  BLINK_MOUNTED = 1500,
   BLINK_SUSPENDED = 2500,
 };
 
@@ -69,6 +70,11 @@ void audio_task(void);
 
 /*------------- MAIN -------------*/
 int main(void) {
+
+	// led init
+	gpio_init(ONBOARD_LED_PIN);
+    gpio_set_dir(ONBOARD_LED_PIN, GPIO_OUT);
+
 	// init device stack on configured roothub port
 	tusb_rhport_init_t dev_init = {
 		.role = TUSB_ROLE_DEVICE,
@@ -99,7 +105,7 @@ void tud_mount_cb(void) { blink_interval_ms = BLINK_MOUNTED; }
 void tud_umount_cb(void) { blink_interval_ms = BLINK_NOT_MOUNTED; }
 
 // Invoked when usb bus is suspended
-// remote_wakeup_en : if host allow us  to perform remote wakeup
+// remote_wakeup_en : if host allow us to perform remote wakeup
 // Within 7ms, device must draw an average of current less than 2.5 mA from bus
 void tud_suspend_cb(bool remote_wakeup_en) {
 	(void)remote_wakeup_en;
@@ -397,7 +403,7 @@ void led_blinking_task(void) {
 	// Blink every interval ms
 	if (board_millis() - start_ms < blink_interval_ms) return;
 	start_ms += blink_interval_ms;
-	// board_led_write(led_state);
+	gpio_put(ONBOARD_LED_PIN, led_state);
 	led_state = 1 - led_state;
 }
 
