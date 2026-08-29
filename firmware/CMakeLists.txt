@@ -40,6 +40,12 @@ if (TARGET tinyusb_device)
     add_executable(PicoDAC
         PicoDAC.c
         src/usb_descriptors.c
+        src/dac.c
+        src/neopixel.c
+    )
+
+    pico_generate_pio_header(${PROJECT_NAME}
+        ${CMAKE_CURRENT_LIST_DIR}/pios/neopixel.pio
     )
 
     target_include_directories(PicoDAC PRIVATE
@@ -48,6 +54,8 @@ if (TARGET tinyusb_device)
 
     target_link_libraries(PicoDAC
         pico_stdlib
+        hardware_i2c
+        hardware_pio
         tinyusb_device
     )
 

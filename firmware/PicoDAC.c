@@ -6,6 +6,8 @@
 #include "tusb.h"
 #include "src/common_types.h"
 
+#include "src/neopixel.h"
+
 //--------------------------------------------------------------------+
 // HELPER FNS
 //--------------------------------------------------------------------+
@@ -75,18 +77,19 @@ void audio_task(void);
 	uint32_t fifo_count_avg;
 #endif
 
-/*------------- MAIN -------------*/
+// ------------- MAIN -------------
 int main(void) {
 	stdio_init_all();
 
 	// led setup
 	gpio_init(PIN_ONBOARD_LED);
 	gpio_set_dir(PIN_ONBOARD_LED, GPIO_OUT);
+  neopixel_init();
 
 	// init device stack on configured roothub port
 	tud_init(BOARD_TUD_RHPORT);
 
-	TU_LOG1("Speaker running\r\n");
+	TU_LOG1("device running\r\n");
 
 	while (1) {
 		tud_task();  // TinyUSB device task
