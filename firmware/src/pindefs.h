@@ -11,5 +11,7 @@
 #define PIN_MCU_LS_OE       5
 
 // led pins
+#define PIN_NEOPIXEL        22
+#define PIN_NEOPIXEL_PWR    23
 #define PIN_ONBOARD_LED     25
 #define PIN_LED_CONTROL     26
