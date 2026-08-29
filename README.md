@@ -33,6 +33,7 @@ Exported STEP files for 3d-printing are available in [/CAD/exports](./CAD/export
 > [3_board2_top_case.step](./CAD/exports/3_board2_top_case.step)<br>
 > [4_board2_bottom_case.step](./CAD/exports/4_board2_bottom_case.step)<br>
 > need to be printed as separate bodies.
+> All these files are also available in `.stl` format inside the [CAD/exports/stl_files](./CAD/exports/stl_files/) directory.
 
 ## **Motivation**
 
