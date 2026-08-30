@@ -53,7 +53,7 @@ Main hardware components are:
 - XIAO RP2350 instead of the 2040 as it has integrated fractional dividers (also see: [this git issue](https://github.com/raspberrypi/pico-sdk/issues/1924))
 - 9x SK6812 RGB LEDs for music level visualization
 
-> **[View complete BOM](./hardware/bom.csv)**
+> **[View complete BOM](#bom)**
 
 PCB Preview:
 
@@ -91,6 +91,9 @@ Other than that, the only extra part is the **XIAO RP2350** MCU which is availab
 
 > Note that the following PCB, PCBA costs are for 5 PCBs out of which 2 are assembled (this is the MOQ for JLCPCB) and also I have used basic components instead of extended wherever possible to reduce costs. 
 
+### **BOM**
+---
+
 | S.No | Name                                 | Description                                        | Qty | Product URL                                                                     | Effective Cost ($) |
 | ---: | ------------------------------------ | -------------------------------------------------- | --: | ------------------------------------------------------------------------------- | -----------------: |
 |    1 | JLCPCB_PCB                           | PCB                                                |   1 | ~                                                                               |               7.00 |
@@ -103,6 +106,8 @@ Other than that, the only extra part is the **XIAO RP2350** MCU which is availab
 |    6 | Shipping for Acrylic Lid | Standard Shipping for Acrylic Lid                           |   1 | ~ |               0.51 |
 |      |                                      |                                                    |     | **Total ($)**                                                                   |          **86.32** |
 
+---
+
 > The DXF file for the acrylic lid is available as [Main_Case_Lid_DoNotPrint.dxf](./CAD/exports/Main_Case_Lid_DoNotPrint.dxf) <br>
 > Robu.in does not allow laser cutout service orders in the same cart as normal products, hence the two different 0.51$ shipping costs.
 
@@ -113,7 +118,7 @@ Please checkout the [/hardware/Ordering/](./hardware/Ordering/) directory to get
 <img src="./hardware/Ordering/robu_cart_2.png">
 
 ## **References**
-- All datasheets in [**BOM.csv**](./hardware/bom.csv)
+- All datasheets in [**BOM.csv**](./hardware/Ordering/bom.csv)
 - https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf
 - https://github.com/raspberrypi/pico-sdk/issues/1924
 - https://electronics.stackexchange.com/questions/336836/understanding-audio-jack-connection
