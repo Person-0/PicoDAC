@@ -11,3 +11,4 @@
 static void dac_reset(void);
 static void dac_i2c_init(void);
 static void dac_init(void);
+static void level_shifters_init(void);
