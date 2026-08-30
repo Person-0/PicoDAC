@@ -1,9 +1,8 @@
 # PicoDAC Firmware
 
-This directory contains the firmware for PicoDAC.
+This directory contains the firmware for PicoDAC, based on the TinyUSB's [uac2_speaker_fb](https://github.com/hathach/tinyusb/tree/0.17.0/examples/device/uac2_speaker_fb) example (MIT License).
 
 > Note that the board selected is `Pico 2` (non risc-v) but the actual board is XIAORP2350, which has an extra onboard Neopixel RGB LED that we are using to show the DAC state (checkout [src/dac.c](./src/dac.c)).
-
 
 ## Current State
 
