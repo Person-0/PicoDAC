@@ -92,11 +92,19 @@ static void dac_i2c_init(void) {
     gpio_pull_up(PIN_DAC_SCL);
 }
 
+static void level_shifters_init(void) {
+    gpio_init(PIN_MCU_LS_OE);
+    gpio_set_dir(PIN_MCU_LS_OE, GPIO_OUT);
+    gpio_put(PIN_MCU_LS_OE, 1);
+    sleep_ms(2);
+}
+
 // onboard neopixel represents the state
 static void dac_init(void) {
     TU_LOG1("DAC init\r\n");
 
     neopixel_set(0, 0, 255);        // blue = init
+    level_shifters_init();
     dac_i2c_init();
     dac_reset();
     sleep_ms(10);
