@@ -117,7 +117,7 @@ Next I will be designing the case for Board-2 (USB-C M-M adapter board) which is
 **Total time spent: 0.5 hours**
 
 # 2026-08-29: i am losing my mind
-# Firmware progress 🥹🥹
+## Firmware progress 🥹🥹
 
 So in the last journal I mentioned I got Windows to recognize my Pico as an audio class device using the tinyusb's uac2_speaker example.
 
@@ -151,7 +151,7 @@ PicoDAC USB Device is no longer glitchy! Here is a bonus image of discord recogn
 **Total time spent: 0 hours**
 
 # 2026-08-22: firmware
-# PicoDAC Firmware
+## PicoDAC Firmware
 
 I researched about USB audio, how it works and what are the requirements to get it working on a RPI PICO board.
 
@@ -175,7 +175,7 @@ In this journal I describe how I made the case for the main board, what problems
 
 *Fusion360 crashed 11 times during my quest to make the Main Board Case 💖*
 
-# PCB Rev 1.5
+## PCB Rev 1.5
 
 When I made the first basic iteration of the enclosure, I found out that the 3.5mm audio jack on my PCB was placed incorrectly (as in not at the edge).
 
@@ -194,7 +194,7 @@ What this does is give us enough room for the enclosure to expose the audio jack
 
 This was all for revision 1.5.
 
-# Main Case
+## Main Case
 
 This took up a big chunk of my time.
 
@@ -246,7 +246,7 @@ For the time being, I've decided to finish the firmware part and after completin
 **Total time spent: 4 hours**
 
 # 2026-08-19: PCB Rev 1.4
-# PCB Revision 1.4
+## PCB Revision 1.4
 
 This journal describes all the changes that I mentioned I needed to do in the last journal.
 
@@ -274,7 +274,7 @@ The previously selected SK6812 LEDs were also marked as `Standard` assembly only
 ![image](journal_assets/asset_18.png)
 
 
-# Heat relief vias
+## Heat relief vias
 
 Originally, I had done the GND vias below the CS43131 IC by hand, eyeballing the positions and had forgotten about it.
 
@@ -316,18 +316,18 @@ Now, I will be moving on to the CAD case for this.
 **Total time spent: 2 hours**
 
 # 2026-08-18: LED Positions update + Mousebites + PCB Rev 1.2
-# PCB Rev 1.2
+## PCB Rev 1.2
 
 I fixed all fixable DRC errors and rounded the PCB corners so that they do not cut my fingers during assembly.
 
-# LED Positions
+## LED Positions
 
 I moved LEDs a bit down and repositioned the resistor and the logic level translator such that the LED bar would start from (almost) the bottom of the board with a little bit of padding at the bottom. This was done to make the board look aesthetically better.
 
 
 ![image](journal_assets/asset_25.png)
 
-# Mousebites
+## Mousebites
 
 I connected the Main Board with Board - 2 using 2 mousebite tabs.
 
@@ -337,7 +337,7 @@ I connected the Main Board with Board - 2 using 2 mousebite tabs.
 
 ![image](journal_assets/asset_27.png)
 
-# 3D View
+## 3D View
 
 After fixing all the DRC errors, the 3d view finally showed how the board would actually look:
 
@@ -347,7 +347,7 @@ After fixing all the DRC errors, the 3d view finally showed how the board would 
 
 ![image](journal_assets/asset_29.png)
 
-# JLC PCB and Assembly costs
+## JLC PCB and Assembly costs
 
 I finished exporting the gerber zip file using [Fabrication toolkit](https://github.com/bennymeg/Fabrication-Toolkit). I tried to use it for BOM and CPL files too but JLC did not accept those (they were missing information for some reason) so I used the built-in KiCad BOM and CPL file exporter tool under the Fabtrication outputs menu and manually edited them such that they worked with JLCPCB.
 
@@ -372,7 +372,7 @@ I will try to find alternative parts that can be used with economic assembly, fi
 **Total time spent: 2 hours**
 
 # 2026-08-16: LED Placement update + PCB Art + Misc
-# LED Placement update
+## LED Placement update
 
 I moved the LED row to the Main Board instead of Board - 2 as it was getting too big for just a USB-C male to male extender connection board and also required an external wire to be soldered to solder pads on Main Board and Board - 2.
 
@@ -405,7 +405,7 @@ This comes with 2 benefits:
 
 ![image](journal_assets/asset_35.png)
 
-# PCB Art
+## PCB Art
 
 I was wondering on how to "brand" my PCB such that it accurately depicts what this project is.
 
@@ -426,7 +426,7 @@ And, on the main board, it looks like this:
 
 ![image](journal_assets/asset_39.png)
 
-# Misc
+## Misc
 
 Other than that, I changed the shape and dimensions of the ground plane on the main board and replaced the thick power traces on board - 2 with a dedicated power plane.
 
@@ -434,7 +434,7 @@ Other than that, I changed the shape and dimensions of the ground plane on the m
 
 ![image](journal_assets/asset_40.png)
 
-# Next steps
+## Next steps
 
 Next I will be 
 - fixing DRC errors (there are a lot, related to tolerances etc.)
@@ -444,7 +444,7 @@ Next I will be
 **Total time spent: 3 hours**
 
 # 2026-08-14: Main Board
-# Main Board PCB
+## Main Board PCB
 
 I finally finished the revision 1 of the main PCB after again checking all the datasheets, verifying connections, placing the capacitors as close to the pins as physically possible etc.
 
@@ -508,7 +508,7 @@ https://www.lcsc.com/product-detail/C2867798.html (english version: https://www.
 **Total time spent: 4 hours**
 
 # 2026-08-12: Board-2
-# Board-2 PCB
+## Board-2 PCB
 
 I completed routing board-2 PCB after restarting from scratch multiple times while checking datasheets, clearance values and youtube tutorials. The USB-C connectors were especially hard for a first time. At the end, I'm pretty satisfied with how it all turned out, even though it took quite a long time.
 
@@ -520,7 +520,7 @@ Since my main board is also a 4-layer PCB with stackup:
 
 I made board 2 with the same layer stackup as the board-2 will be attached to the main board using mousebites or V-Cuts.
 
-# USB-C
+## USB-C
 
 I had to manually edit some footprint properties of the vertical USB-C connector to fix some DRC errors and also changed the Side mount USB-C connector to a different one as the previous one's footprint was weird ish.
 
@@ -537,13 +537,13 @@ Other than that, I directly connected relevant pins with each other on the USB-C
 
 (Ground and power are on separate planes so those pins are just connected to vias)
 
-# LEDs
+## LEDs
 
 I routed all the LEDS together as a 4x1 row with thick-enough traces. 
 
 ![image](journal_assets/asset_49.png)
 
-# Level Shifter for LED + Solder pad
+## Level Shifter for LED + Solder pad
 
 I routed the 74AHCT1G125GV level shifter to the LEDs, power and the TestPoint solder pad that will be connected to a similar solder pad on the main board via a wire.
 
@@ -568,7 +568,7 @@ I've yet to style the board, and will be doing that later after finishing the ma
 
 Thank you for reading this journal!
 
-# References
+## References
 - https://www.pcbway.com/blog/PCB_Design_Layout/USB_Type_C_PCB_Design_Guidelines_Layout_and_Routing_Best_Practices_55bc0c39.html
 - https://support.microchip.com/s/article/USB-Type-C-Layout-Recommendations
 - https://ledpixelstrip.com/sk6812-rgb-led-strip-the-ultimate-guide/
@@ -578,7 +578,7 @@ Thank you for reading this journal!
 **Total time spent: 3 hours**
 
 # 2026-08-05: Final schematics
-# Final schematics
+## Final schematics
 This is a long journal so buckle up!
 
 ## 1.8V voltage regulator
@@ -599,7 +599,7 @@ The schematics for that is:
 
 ![image](journal_assets/asset_55.png) 
 
-# Board 2
+## Board 2
 
 Since I'm using a XIAO RP2350, which comes with a USB-C receptacle (female plug), it can not directly be plugged into a smartphone's USB-C plug (since that is also a female plug).
 
@@ -652,7 +652,7 @@ The entire finished schematics are:
 
 ![image](journal_assets/asset_61.png)
 
-# References
+## References
 Some of the datasheets were in Chinese so I had to translate parts of it to english using google translate...
 - https://www.lcsc.com/datasheet/C51953293.pdf
 - https://www.lcsc.com/datasheet/C2840398.pdf
@@ -669,7 +669,7 @@ Thank you for reading my journal, Until next time!
 # 2026-08-04: schematics update
 This is a pretty long journal that I've finally written after locking-in for nearly 4 hours.
 
-# DAC Schematics
+## DAC Schematics
 
 I finished the CS43131 schematics after carefully referencing the datasheet of the CS43131 by completing the VCP_FILT circuit, adding labels to required pins, cleaning up the previous schematics a bit and now it finally looks like this:
 
@@ -677,7 +677,7 @@ I finished the CS43131 schematics after carefully referencing the datasheet of t
 
 Note the `DAC_RESET` label, It will be connected to some GPIO pin on the MCU to pull the RESET pin of the DAC low, which will enable the DAC as it is active low.
 
-# Logic level shifters
+## Logic level shifters
 
 According to the information in the CS43131 datasheet, the logic pins on it run at 1.8V and since the microcontroller I'm using (RP2350A) has GPIO pins at 3.3v logic level, I had to use logic level shifters to shift 3.3V to 1.8V.
 
@@ -695,13 +695,13 @@ I've left this one to always enabled as it is active high and the datasheet's ty
 
 **Note that in both the schematics, I've left out the labels for GPIO pin connections as I have not done them yet. I will be doing that next.**
 
-# MCU schematics
+## MCU schematics
 
 I added labels and connected power and ground to the XIAO RP2350's schematic.
 
 ![image](journal_assets/asset_65.png)
 
-# Next steps
+## Next steps
 
 As mentioned previously, I will be connecting the GPIO pin labels to the required DAC pins in the level shifter schematics next.
 
@@ -709,7 +709,7 @@ Also, I will be adding a clean, low noise voltage regulator for 3.3V to 1.8V to 
 
 Thank you for reading my journal.
 
-# References
+## References
 - https://www.lcsc.com/datasheet/C1554754.pdf
 - https://www.lcsc.com/product-detail/C33196.html
 - https://www.lcsc.com/product-detail/C2867798.html (english version: https://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf)
@@ -723,7 +723,7 @@ Thank you for reading my journal.
 # 2026-08-04: schematics init
 (this journal failed to post last time hence back to back journal above)
 
-# CS43131 Schematics
+## CS43131 Schematics
 
 I started with the schematics for the CS43131.
 
@@ -737,7 +737,7 @@ Entire schematics (obviously incomplete) currently look like:
 
 ![image](journal_assets/asset_67.png)
 
-# References:
+## References:
 - https://www.lcsc.com/datasheet/C668605.pdf
 - https://www.lcsc.com/datasheet/C1554754.pdf
 - https://electronics.stackexchange.com/questions/336836/understanding-audio-jack-connection
@@ -747,11 +747,11 @@ Entire schematics (obviously incomplete) currently look like:
 **Total time spent: 1.5 hours**
 
 # 2026-08-03: Init
-# **PicoDAC**
+## **PicoDAC**
 
 This is a HiFi portable USB-C to 3.5mm headphone jack Digital Audio Converter (DAC).
 
-# Motivation
+## Motivation
 
 I bought a cheap USB-C to 3.5mm connector recently and it was working perfectly fine until it sadly broke.
 
@@ -764,7 +764,7 @@ Naturally, the red part I've highlighted in the image slowly got bent and broke 
 
 To fix this problem and also make a higher-quality DAC, I've started this project.
 
-# The Idea
+## The Idea
 
 A flat plane with a 90deg vertical USB-C male plug, where the flat plane is the PCB containing the DAC circuitry. Side mounted 3.5mm headphone jack and some music level LEDs to make it all look good.
 
