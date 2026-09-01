@@ -6,14 +6,14 @@ created_at: "2026-08-03"
 ---
 
 # 2026-08-29: board-2 case, bom update
-# Board - 2 Case
+## Board - 2 Case
 
 I finished the case for board - 2 as mentioned in the previous journal. It looks like this:
 
 
-![image](journal_assets/asset_0.png).png)
+![image](journal_assets/asset_0.png)
 
-![image](journal_assets/asset_1.png).png)
+![image](journal_assets/asset_1.png)
 
 The top and bottom are separate parts that need to be printed separately and after testing the Board-2 PCB and seating it inside the bottom part, the top part will be directly glued onto the bottom part.
 
@@ -203,13 +203,13 @@ After redoing the entire thing countless times while Fusion360 kept crashing or 
 ### Preview Images:
 
 
-![image](journal_assets/asset_9.png).png)
+![image](journal_assets/asset_9.png)
 
-![image](journal_assets/asset_10.png).png)
+![image](journal_assets/asset_10.png)
 
-![image](journal_assets/asset_11.png).png)
+![image](journal_assets/asset_11.png)
 
-![image](journal_assets/asset_12.png).png)
+![image](journal_assets/asset_12.png)
 
 I made the enclosure a cuboidal shape with one side that is detached, to slide in the PCB.
 
