@@ -1,19 +1,12 @@
-# **PicoDAC**
-
-```
-Total Journal Hours:    29.5
-```
-
-## 2026-08-29 (11:48:58)
-# **board-2 case, bom update**: (2h)
+# 2026-08-29: board-2 case, bom update
 # Board - 2 Case
 
 I finished the case for board - 2 as mentioned in the previous journal. It looks like this:
 
 
-![image](journal_assets/asset_0.png)
+![image](journal_assets/asset_0.png).png)
 
-![image](journal_assets/asset_1.png)
+![image](journal_assets/asset_1.png).png)
 
 The top and bottom are separate parts that need to be printed separately and after testing the Board-2 PCB and seating it inside the bottom part, the top part will be directly glued onto the bottom part.
 
@@ -52,11 +45,11 @@ The firmware part is done in a basic way, all the cases have been designed and t
 Now all that left is to order the PCB, components and make the firmware work properly after extensive testing.
 
 ## **Thank you for reading my journal, Good luck!**
----
- <br> 
+<br>
 
-## 2026-08-29 (08:39:24)
-# **Firmware current state, bom stuff**: (0.5h)
+**Total time spent: 2 hours**
+
+# 2026-08-29: Firmware current state, bom stuff
 I finished basic firmware stuff for the project and the following is what is done and what isn't.
 
 ## Current Firmware State
@@ -112,11 +105,11 @@ BOM Table:
 ## Next Steps
 
 Next I will be designing the case for Board-2 (USB-C M-M adapter board) which is the finish line to submit this project for review.
----
- <br> 
+<br>
 
-## 2026-08-29 (01:57:58)
-# **i am losing my mind**: (0h)
+**Total time spent: 0.5 hours**
+
+# 2026-08-29: i am losing my mind
 # Firmware progress 🥹🥹
 
 So in the last journal I mentioned I got Windows to recognize my Pico as an audio class device using the tinyusb's uac2_speaker example.
@@ -146,11 +139,11 @@ I've added a separate readme file in the firmware directory inside the GitHub re
 PicoDAC USB Device is no longer glitchy! Here is a bonus image of discord recognizing PicoDAC as a USB audio device!!!! (wohooo)
 
 ![image](journal_assets/asset_5.png)
----
- <br> 
+<br>
 
-## 2026-08-22 (04:50:37)
-# **firmware**: (0h)
+**Total time spent: 0 hours**
+
+# 2026-08-22: firmware
 # PicoDAC Firmware
 
 I researched about USB audio, how it works and what are the requirements to get it working on a RPI PICO board.
@@ -164,11 +157,11 @@ Windows recognizes the Pico as an audio device with the name PicoDAC Device:
 ![image](journal_assets/asset_6.png) 
 
 The firmware source is available in the GitHub repository.
----
- <br> 
+<br>
 
-## 2026-08-21 (06:33:33)
-# **PCB Rev 1.5 + Main Case**: (4h)
+**Total time spent: 0 hours**
+
+# 2026-08-21: PCB Rev 1.5 + Main Case
 ### **Buckle up, deadline is near!!!!**
 
 In this journal I describe how I made the case for the main board, what problems I encountered while doing so and how I fixed them. In-case I've missed any preview image or you need a reference, feel free to checkout the GitHub repository as it has all the necessary files related to the CAD or PCB.
@@ -203,13 +196,13 @@ After redoing the entire thing countless times while Fusion360 kept crashing or 
 ### Preview Images:
 
 
-![image](journal_assets/asset_9.png)
+![image](journal_assets/asset_9.png).png)
 
-![image](journal_assets/asset_10.png)
+![image](journal_assets/asset_10.png).png)
 
-![image](journal_assets/asset_11.png)
+![image](journal_assets/asset_11.png).png)
 
-![image](journal_assets/asset_12.png)
+![image](journal_assets/asset_12.png).png)
 
 I made the enclosure a cuboidal shape with one side that is detached, to slide in the PCB.
 
@@ -241,11 +234,11 @@ For the time being, I've decided to finish the firmware part and after completin
 - https://www.raise3d.com/blog/3d-printing-wall-thickness/
 - https://jlc3dp.com/help/article/3d-printing-design-guideline
 - https://wikifactory.com/+wikifactory/stories/ultimate-guide-how-to-design-for-3d-printing
----
- <br> 
+<br>
 
-## 2026-08-19 (06:05:36)
-# **PCB Rev 1.4**: (2h)
+**Total time spent: 4 hours**
+
+# 2026-08-19: PCB Rev 1.4
 # PCB Revision 1.4
 
 This journal describes all the changes that I mentioned I needed to do in the last journal.
@@ -311,11 +304,11 @@ Even after doing all that, the final cost for assembly came out to be `88.55$`. 
 Now, I will be moving on to the CAD case for this.
 
 ## ***Thank you***
----
- <br> 
+<br>
 
-## 2026-08-18 (18:01:00)
-# **LED Positions update + Mousebites + PCB Rev 1.2**: (2h)
+**Total time spent: 2 hours**
+
+# 2026-08-18: LED Positions update + Mousebites + PCB Rev 1.2
 # PCB Rev 1.2
 
 I fixed all fixable DRC errors and rounded the PCB corners so that they do not cut my fingers during assembly.
@@ -367,11 +360,11 @@ This includes:
 I will try to find alternative parts that can be used with economic assembly, finish the PCB and then hopefully move on to the CAD case part of the project after fixing any other problems if encountered.
 
 ## Thank you for reading my journal!
----
- <br> 
+<br>
 
-## 2026-08-16 (23:36:34)
-# **LED Placement update + PCB Art + Misc**: (3h)
+**Total time spent: 2 hours**
+
+# 2026-08-16: LED Placement update + PCB Art + Misc
 # LED Placement update
 
 I moved the LED row to the Main Board instead of Board - 2 as it was getting too big for just a USB-C male to male extender connection board and also required an external wire to be soldered to solder pads on Main Board and Board - 2.
@@ -439,11 +432,11 @@ Other than that, I changed the shape and dimensions of the ground plane on the m
 Next I will be 
 - fixing DRC errors (there are a lot, related to tolerances etc.)
 - adding mousebites in between Board - 2 and the Main Board to easily break it off after I get the PCB.
----
- <br> 
+<br>
 
-## 2026-08-14 (21:00:37)
-# **Main Board**: (4h)
+**Total time spent: 3 hours**
+
+# 2026-08-14: Main Board
 # Main Board PCB
 
 I finally finished the revision 1 of the main PCB after again checking all the datasheets, verifying connections, placing the capacitors as close to the pins as physically possible etc.
@@ -503,11 +496,11 @@ https://www.lcsc.com/product-detail/C2867798.html (english version: https://www.
 - https://forum.kicad.info/t/how-to-create-teardrops-in-pcb-editor/61920/
 - https://electronics.stackexchange.com/questions/686845/pcb-design-question-power-plane-or-fat-traces-for-high-current
 - https://www.eevblog.com/forum/eda/should-plane-be-used-to-connect-power-or-just-thicker-tracks/
----
- <br> 
+<br>
 
-## 2026-08-12 (11:26:54)
-# **Board-2**: (3h)
+**Total time spent: 4 hours**
+
+# 2026-08-12: Board-2
 # Board-2 PCB
 
 I completed routing board-2 PCB after restarting from scratch multiple times while checking datasheets, clearance values and youtube tutorials. The USB-C connectors were especially hard for a first time. At the end, I'm pretty satisfied with how it all turned out, even though it took quite a long time.
@@ -573,11 +566,11 @@ Thank you for reading this journal!
 - https://support.microchip.com/s/article/USB-Type-C-Layout-Recommendations
 - https://ledpixelstrip.com/sk6812-rgb-led-strip-the-ultimate-guide/
 - https://www.reddit.com/r/PCB/comments/1jyc46l/pcb_design_for_sk6812_led_strips/
----
- <br> 
+<br>
 
-## 2026-08-05 (15:44:45)
-# **Final schematics**: (3h)
+**Total time spent: 3 hours**
+
+# 2026-08-05: Final schematics
 # Final schematics
 This is a long journal so buckle up!
 
@@ -662,11 +655,11 @@ Some of the datasheets were in Chinese so I had to translate parts of it to engl
 - https://www.lcsc.com/datasheet/C5378720.pdf
 
 Thank you for reading my journal, Until next time!
----
- <br> 
+<br>
 
-## 2026-08-04 (17:41:11)
-# **schematics update**: (3.5h)
+**Total time spent: 3 hours**
+
+# 2026-08-04: schematics update
 This is a pretty long journal that I've finally written after locking-in for nearly 4 hours.
 
 # DAC Schematics
@@ -716,11 +709,11 @@ Thank you for reading my journal.
 - https://www.totalphase.com/blog/2024/07/what-are-i2c-pull-up-resistors-calculate-their-values/
 - https://forum.arduino.cc/t/why-use-a-47k-resistor-between-3-3v-and-sda-and-scl-port-of-esp3266/850553
 - https://files.seeedstudio.com/wiki/XIAO-RP2350/res/Seeed-Studio-XIAO-RP2350-v1.0.pdf
----
- <br> 
+<br>
 
-## 2026-08-04 (17:29:16)
-# **schematics init**: (1.5h)
+**Total time spent: 3.5 hours**
+
+# 2026-08-04: schematics init
 (this journal failed to post last time hence back to back journal above)
 
 # CS43131 Schematics
@@ -742,11 +735,11 @@ Entire schematics (obviously incomplete) currently look like:
 - https://www.lcsc.com/datasheet/C1554754.pdf
 - https://electronics.stackexchange.com/questions/336836/understanding-audio-jack-connection
 - https://electronics.stackexchange.com/questions/95575/how-does-the-phone-detect-if-3-5-mm-jack-circuit-is-closed
----
- <br> 
+<br>
 
-## 2026-08-03 (14:16:02)
-# **Init**: (1h)
+**Total time spent: 1.5 hours**
+
+# 2026-08-03: Init
 # **PicoDAC**
 
 This is a HiFi portable USB-C to 3.5mm headphone jack Digital Audio Converter (DAC).
@@ -779,6 +772,7 @@ I've decided to use:
 - XIAO RP2350 instead of the 2040 as it has integrated fractional dividers (also see: [this git issue](https://github.com/raspberrypi/pico-sdk/issues/1924))
 
 Next I will be starting with the schematics for the PCB.
----
- <br> 
+<br>
+
+**Total time spent: 1 hours**
 
