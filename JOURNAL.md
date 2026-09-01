@@ -1,3 +1,10 @@
+---
+title: "PicoDAC"
+author: "Person-0"
+description: "USB-C to 3.5mm HiFi mini DAC"
+created_at: "2026-08-03"
+---
+
 # 2026-08-29: board-2 case, bom update
 # Board - 2 Case
 
