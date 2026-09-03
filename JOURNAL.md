@@ -8,15 +8,13 @@ created_at: "2026-08-03"
 # 2026-09-03: Ground fill, Stitching Vias
 I added ground fill for both top and bottom layers as I had not done that before.
 
-The updated schematics look like this:
-
+The updated PCB look like this:
 
 ![image](journal_assets/asset_70.png)
 
 ![image](journal_assets/asset_71.png)
 
 I exported the new gerber zip file and now the BOM looks like this:
-
 
 
 | S.No | Name                                 | Description                                        | Qty | Product URL                                                                     | Effective Cost ($) |

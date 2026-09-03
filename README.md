@@ -97,15 +97,14 @@ Other than that, the only extra part is the **XIAO RP2350** MCU which is availab
 | S.No | Name                                 | Description                                        | Qty | Product URL                                                                     | Effective Cost ($) |
 | ---: | ------------------------------------ | -------------------------------------------------- | --: | ------------------------------------------------------------------------------- | -----------------: |
 |    1 | JLCPCB_PCB                           | PCB                                                |   1 | ~                                                                               |               7.00 |
-|    2 | JLCPCB_Assembly                      | PCB Assembly                                       |   1 | ~                                                                               |              68.88 |
+|    2 | JLCPCB_Assembly                      | PCB Assembly                                       |   1 | ~                                                                               |              68.03 |
 |    3 | JLCPCB_Shipping                      | Lowest price shipping: UPS Worldwide Express Saver |   1 | ~                                                                               |               9.10 |
 |    4 | JLCPCB_Coupons                       | ~                                                  |   1 | ~                                                                               |             -10.00 |
 |    5 | SeeedStudio XIAO RP2350              | MCU: XIAO RP2350                                   |   1 | [robu.in/...](https://robu.in/product/seeedstudio-xiao-rp2350-raspberry-pi-rp2350/) |               8.69 |
 |    6 | Shipping for SeeedStudio XIAO RP2350 | Standard Shipping for XIAO RP2350                           |   1 | ~ |               0.51 |
 |    5 | Acrylic Lid for Main Case            | Acrylic Laser Cutout (Qty = 2 as cost per piece is below 80INR and robu.in requires minimum cost to be atleast 80INR for non-metal laser cutting service order)                                  |   2 | ~ |               1.63 |
 |    6 | Shipping for Acrylic Lid | Standard Shipping for Acrylic Lid                           |   1 | ~ |               0.51 |
-|      |                                      |                                                    |     | **Total ($)**                                                                   |          **86.32** |
-
+|      |                                      |                                                    |     | **Total ($)**                                                                   |          **85.47** |
 ---
 
 > The DXF file for the acrylic lid is available as [Main_Case_Lid_DoNotPrint.dxf](./CAD/exports/Main_Case_Lid_DoNotPrint.dxf) <br>
