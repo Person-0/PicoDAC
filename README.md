@@ -11,6 +11,8 @@ Fully custom PCB and 3D printed case.
 ### Preview Images
 Note that a specially cut transparent acrylic sheet will be used as the top lid of the main PCB case which will be superglued to part of the case that is non-detachable.
 
+The main PCB case also requires [this 2.5X8 screw](https://sharvielectronics.com/product/m2-5x8mm-phillips-head-mounting-screw-stainless-steel/) that will be used to attach the detachable part with the non-detachable part.
+
 As for the case of the board - 2, since it really is just two directly connected USB-C plugs, the top and bottom part of the case will be glued together after seating the board-2 PCB inside it properly (after testing it).
 
 <img src="./CAD/imgs/preview (1).png" width="512px">
@@ -18,7 +20,8 @@ As for the case of the board - 2, since it really is just two directly connected
 <img src="./CAD/imgs/preview (3).png" width="512px">
 <img src="./CAD/imgs/preview (4).png" width="512px">
 <img src="./CAD/imgs/preview (5).png" width="512px">
-<img src="./CAD/imgs/preview (6).png" width="512px">
+<img src="journal_assets/asset_72.png" width="512px">
+<img src="journal_assets/asset_73.png" width="512px">
 <img src="./CAD/imgs/board2_preview (1).png" width="512px">
 <img src="./CAD/imgs/board2_preview (2).png" width="512px">
 
