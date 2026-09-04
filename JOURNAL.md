@@ -5,6 +5,17 @@ description: "USB-C to 3.5mm HiFi mini DAC"
 created_at: "2026-08-03"
 ---
 
+# 2026-09-04: CAD update
+
+I removed the big friction fit slot and extrusion in the main board case with a hole for screwing in [this 2.5X8 screw](https://sharvielectronics.com/product/m2-5x8mm-phillips-head-mounting-screw-stainless-steel/), which will help hold the case together better.
+
+The main board case now looks like this:
+
+![image](journal_assets/asset_72.png)
+
+![image](journal_assets/asset_73.png)
+
+
 # 2026-09-03: Ground fill, Stitching Vias
 I added ground fill for both top and bottom layers as I had not done that before.
 
